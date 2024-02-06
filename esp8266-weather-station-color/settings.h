@@ -39,7 +39,7 @@ const boolean HARD_SLEEP = false;         // true go into deepSleep false = turn
 
 // OpenWeatherMap Settings
 // Sign up here to get an API key: https://docs.thingpulse.com/how-tos/openweathermap-key/
-String OPEN_WEATHER_MAP_API_KEY = "00040e4e56681c45a2ee2426e3c84297";
+String OPEN_WEATHER_MAP_API_KEY = "";
 
 /*
 Go to https://openweathermap.org/find?q= and search for a location. Go through the
