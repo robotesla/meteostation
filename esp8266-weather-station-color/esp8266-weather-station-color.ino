@@ -191,13 +191,13 @@ void setup() {
   digitalWrite(TFT_LED, HIGH);    // HIGH to Turn on;
 
   gfx.init();
-  gfx.setRotation(3);
+  gfx.setRotation(0);
   gfx.fillBuffer(MINI_BLACK);
   gfx.commit();
 
   Serial.println("Initializing touch screen...");
   ts.begin();
-  ts.setRotation(3);
+  ts.setRotation(1);
 
   Serial.println("Mounting file system...");
   bool isFSMounted = SPIFFS.begin();

@@ -26,11 +26,8 @@
 #include "TZinfo.h"
 
 // Setup
-String WIFI_SSID = "имя сети";
-String WIFI_PASS = "пароль сети";
-
-//String WIFI_SSID = "Robotesla.ru";
-//String WIFI_PASS = "Rassvet22";
+String WIFI_SSID = "Robotesla.ru";
+String WIFI_PASS = "Rassvet22";
 #define WIFI_HOSTNAME "ThingPulse-weather-station-color"
 
 const int UPDATE_INTERVAL_SECS = 33 * 60; // Update every 33 minutes
@@ -39,7 +36,7 @@ const boolean HARD_SLEEP = false;         // true go into deepSleep false = turn
 
 // OpenWeatherMap Settings
 // Sign up here to get an API key: https://docs.thingpulse.com/how-tos/openweathermap-key/
-String OPEN_WEATHER_MAP_API_KEY = "";
+String OPEN_WEATHER_MAP_API_KEY = "API key";
 
 /*
 Go to https://openweathermap.org/find?q= and search for a location. Go through the
@@ -117,7 +114,7 @@ const char MOON_ICONS_SOUTH_WAXING[] = {64, 77, 76, 75, 74, 73, 72, 71, 70, 69, 
 #define TFT_LED D8
 
 #define HAVE_TOUCHPAD
-#define TOUCH_CS D3
+#define TOUCH_CS D0
 #define TOUCH_IRQ  D4
 
 
