@@ -3,13 +3,13 @@
 #include <XPT2046_Touchscreen.h>
 #include <SPI.h>
 
-#define CS_PIN  8
-#define TFT_DC  9
-#define TFT_CS 10
+#define CS_PIN  1
+#define TFT_DC  2
+#define TFT_CS 3
 // MOSI=11, MISO=12, SCK=13
 
 XPT2046_Touchscreen ts(CS_PIN);
-#define TIRQ_PIN  2
+#define TIRQ_PIN  4
 //XPT2046_Touchscreen ts(CS_PIN);  // Param 2 - NULL - No interrupts
 //XPT2046_Touchscreen ts(CS_PIN, 255);  // Param 2 - 255 - No interrupts
 //XPT2046_Touchscreen ts(CS_PIN, TIRQ_PIN);  // Param 2 - Touch IRQ Pin - interrupt enabled polling
