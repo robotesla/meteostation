@@ -42,8 +42,8 @@ See more at https://thingpulse.com
  * Begin Settings
  **************************/
 // WIFI
-const char* WIFI_SSID = "yourssid";
-const char* WIFI_PWD = "yourpassw0rd";
+const char* WIFI_SSID = "ELTX-2.4GHz_WiFi_0DEF";
+const char* WIFI_PWD = "Narseeva19";
 
 // Setup
 const int UPDATE_INTERVAL_SECS = 10 * 60; // Update every 10 minutes
